@@ -81,7 +81,7 @@ function startgame(){
     scorediv1.textContent="YOUR SCORE"
     scorediv2.textContent="COMPUTER'S SCORE"
     resultdiv.textContent=""
-    uc.textContent=`User's Choice[0/5]`
+    uc.textContent=`User's Choice[1/5]`
 }
 
 function waitforpress(){
