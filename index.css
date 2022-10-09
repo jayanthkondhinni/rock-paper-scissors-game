@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+    background-image: url(background.jfif);
+    /* background-color: black; */
+    background-size: cover;
+    color:white;
+    text-shadow: 0px 0px 8px black;
+}
+#flexarea{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#compside{
+    background-color: transparent;
+    height:200px;
+    width:250px;
+    /* border:1px solid white; */
+    color: black;
+    text-shadow: 0px 0px 4px white;
+}
+#userside{
+    background-color:transparent;
+    height:200px;
+    width:250px;
+    /* border:1px solid orange; */
+    color: black;
+    text-shadow: 0px 0px 4px white;
+}
+#userinnerdiv{
+    background-color: white;
+    /* height:30px; */
+    width:190px;
+    /* border:1px solid white; */
+    border-radius: 5px;
+    margin:0px auto;
+    padding: 5px 0px;
+    margin-top: 30px;
+    color:black;
+    text-shadow: 0px 0px 3px peachpuff;
+}
+#compinnerdiv{
+    width:190px;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin:0px auto;
+    margin-top: 30px;
+    background-color: white;
+    color:black;
+    text-shadow: 0px 0px 3px peachpuff;
+}
+button{
+    background-color: peachpuff ;
+    color:black;
+    border-radius:5px;
+    margin:10px;
+    margin-top: 30px;
+    height:30px;
+    width:60px;
+    border:1px solid white;
+    box-shadow: none;
+    text-shadow: 0px 0px 3px black;
+}
+button:active{
+    box-shadow: 0px 0px  10px black;
+}
+#maindiv{
+    height:auto;
+    width: 600px;
+    border:3px solid black;
+    padding: 30px;
+    margin: 100px auto;
+    padding-top: 0px;
+    background-color:transparent;
+}
+#submit-btn{
+    height:35px;
+    width:130px;
+}
+#newgame{
+    height:35px;
+    width:130px;
+}
+#result-div{
+    font-weight: bold;
+    /* border:1px solid black; */
+    width:500px;
+    margin:0px auto;
+    margin-top: 30px;
+    padding:5px;
+}
+#end{
+    display:flex;
+    align-items: end;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 5px peachpuff;
+}
+#score-div1{
+    /* border:1px solid black;  */
+    padding:10px;
+    width:270px;
+    margin:0px auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-shadow: 0px 0px 5px goldenrod;
+}
+#score-div2{
+    /* border:1px solid black;  */
+    padding:10px;
+    width:270px;
+    margin:0px auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-shadow: 0px 0px 5px goldenrod;
+
+}
