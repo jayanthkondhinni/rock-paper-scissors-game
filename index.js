@@ -17,7 +17,13 @@ let waitforpressresolve
 
 function rendergame(){
         let cres = rpc[randomnumber()]
-        cID.textContent=cres
+        if(cres == "ROCK"){
+            cID.textContent="✊"
+        }else if(cres == "PAPER"){
+            cID.textContent="✋"
+        }else{
+            cID.textContent="✌️"
+        }
         if(ures==""){
             alert("select ant one of {rock,paper,scissors}")
         }
