@@ -56,15 +56,15 @@ function randomnumber(){
     return num
 }
 rbtn.addEventListener("click",function(){
-    uID.textContent="ROCK"
+    uID.textContent="✊"
     ures="ROCK"
 })
 pbtn.addEventListener("click",function(){
-    uID.textContent="PAPER"
+    uID.textContent="✋"
     ures="PAPER"
 })
 sbtn.addEventListener("click",function(){
-    uID.textContent="SCISSORS"
+    uID.textContent="✌️"
     ures="SCISSORS"
 })
 submitbtn.addEventListener("click",function(){
@@ -76,7 +76,7 @@ newgamebtn.addEventListener("click",function(){
 function startgame(){
     uscore=0
     cscore=0
-    cID.textContent="Rock/Paper/Scissors"
+    cID.textContent="✋/✊/✌️"
     uID.textContent="Enter Your Choice"
     scorediv1.textContent="YOUR SCORE"
     scorediv2.textContent="COMPUTER'S SCORE"
