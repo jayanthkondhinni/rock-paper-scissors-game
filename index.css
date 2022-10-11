@@ -73,6 +73,7 @@ button:active{
     margin: 100px auto;
     padding-top: 0px;
     background-color:transparent;
+    border-radius: 10px;
 }
 #submit-btn{
     height:35px;
