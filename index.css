@@ -117,3 +117,6 @@ button:active{
     text-shadow: 0px 0px 5px goldenrod;
 
 }
+#rbtn,#pbtn,#sbtn{
+    border-radius: 100%;
+}
